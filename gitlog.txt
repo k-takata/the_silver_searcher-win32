@@ -1,0 +1,1 @@
+* Merge pull request [#1116](https://github.com/ggreer/the_silver_searcher/issues/1116) from sobolevn/patch-1\n* Merge pull request [#1106](https://github.com/ggreer/the_silver_searcher/issues/1106) from cemeyer/896-zip-streaming\n
