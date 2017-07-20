@@ -1,0 +1,3 @@
+[submodule "ag"]
+	path = ag
+	url = https://github.com/ggreer/the_silver_searcher.git
