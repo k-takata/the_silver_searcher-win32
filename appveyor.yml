@@ -4,8 +4,8 @@ environment:
   global:
     DEPLOY_USER_NAME: 'ag-win32 CI'
     DEPLOY_USER_EMAIL: 'k-takata@users.noreply.github.com'
-    #CI_KEY:
-    #  secure: 
+    CI_KEY:
+      secure: cAkxwysBbm0A9OaET3vVvBCtFJReZXeCH7zS3HTWyzbUGdNKqDeLkbjlvvSxXPw2
 
   matrix:
     - compiler: msys2
@@ -48,9 +48,9 @@ deploy:
 
       $(GITLOG)
 
-    #auth_token:
-    #  secure: 
-    #artifact: /ag/
+    auth_token:
+      secure: iQ9mJz+iGRN80TcqCyoPU43RrE6a86cK7YKDYLV1IsHebSvubmQIKUTxciYemg0Q
+    artifact: /ag/
     prerelease: true
     on:
       appveyor_repo_tag: true
