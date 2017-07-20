@@ -1,0 +1,49 @@
+From 13367b0ac22604b3b3693ef1e8b5f6b5ec10bb3c Mon Sep 17 00:00:00 2001
+From: "K.Takata" <kentkt@csc.jp>
+Date: Fri, 14 Jul 2017 20:49:54 +0900
+Subject: [PATCH] Fix compile error on MinGW
+
+MinGW doesn't have err.h.
+---
+ configure.ac | 2 +-
+ src/zfile.c  | 4 +++-
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+
+diff --git a/configure.ac b/configure.ac
+index 5779e7b..9b9f5a5 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -59,7 +59,7 @@ AS_IF([test "x$enable_lzma" != "xno"], [
+ AC_CHECK_DECL([PCRE_CONFIG_JIT], [AC_DEFINE([USE_PCRE_JIT], [], [Use PCRE JIT])], [], [#include <pcre.h>])
+ 
+ AC_CHECK_DECL([CPU_ZERO, CPU_SET], [AC_DEFINE([USE_CPU_SET], [], [Use CPU_SET macros])] , [], [#include <sched.h>])
+-AC_CHECK_HEADERS([sys/cpuset.h])
++AC_CHECK_HEADERS([sys/cpuset.h err.h])
+ 
+ AC_CHECK_MEMBER([struct dirent.d_type], [AC_DEFINE([HAVE_DIRENT_DTYPE], [], [Have dirent struct member d_type])], [], [[#include <dirent.h>]])
+ AC_CHECK_MEMBER([struct dirent.d_namlen], [AC_DEFINE([HAVE_DIRENT_DNAMLEN], [], [Have dirent struct member d_namlen])], [], [[#include <dirent.h>]])
+diff --git a/src/zfile.c b/src/zfile.c
+index 1f75f95..8686517 100644
+--- a/src/zfile.c
++++ b/src/zfile.c
+@@ -4,7 +4,6 @@
+ #include <sys/types.h>
+ 
+ #include <assert.h>
+-#include <err.h>
+ #include <errno.h>
+ #include <inttypes.h>
+ #include <limits.h>
+@@ -16,6 +15,9 @@
+ 
+ #include "config.h"
+ 
++#ifdef HAVE_ERR_H
++#include <err.h>
++#endif
+ #ifdef HAVE_ZLIB_H
+ #include <zlib.h>
+ #endif
+-- 
+2.13.2
+
