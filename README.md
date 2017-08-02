@@ -8,7 +8,7 @@ You can download the zip packages from the [releases](https://github.com/k-takat
 
 Two types of packages are provided:
 
-* `ag-YYYY-MM-DD.{CommitID}-x64.zip`: x64 release build
-* `ag-YYYY-MM-DD.{CommitID}-x86.zip`: x86 release build
+* `ag-YYYY-MM-DD_{CommitID}-x64.zip`: x64 release build
+* `ag-YYYY-MM-DD_{CommitID}-x86.zip`: x86 release build
 
 `{CommitID}` is a commit ID or a tag name of [the official repository](https://github.com/ggreer/the_silver_searcher).

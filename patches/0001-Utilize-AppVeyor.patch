@@ -9,7 +9,7 @@ Compile on the following environments:
 * Cygwin (32-bit)
 ---
  appveyor.yml       |  27 +++++++++++++
- win32/appveyor.bat | 110 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ win32/appveyor.bat | 111 +++++++++++++++++++++++++++++++++++++++++++++++++++++
  2 files changed, 137 insertions(+)
  create mode 100644 appveyor.yml
  create mode 100755 win32/appveyor.bat
@@ -52,7 +52,7 @@ new file mode 100755
 index 0000000..856f969
 --- /dev/null
 +++ b/win32/appveyor.bat
-@@ -0,0 +1,110 @@
+@@ -0,0 +1,111 @@
 +@echo off
 +:: Batch file for building/testing Ag on AppVeyor
 +
@@ -121,6 +121,7 @@ index 0000000..856f969
 +) else (
 +  set ver=%APPVEYOR_REPO_TAG_NAME%
 +)
++set ver=%ver:/=_%
 +
 +:: Create zip package
 +set filelist=ag.exe LICENSE README.md

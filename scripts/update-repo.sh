@@ -45,5 +45,5 @@ echo "$aglog" | \
 	perl -pe 's/\n/\\n/g' > gitlog.txt
 aglog=$(echo "$aglog" | sed -e 's/^  >/*/')
 git commit -a -m "ag: Update to $agver" -m "$aglog"
-git tag $(date --rfc-3339=date).$agver
+git tag $(date --rfc-3339=date)/$agver
 git push origin master --tags
