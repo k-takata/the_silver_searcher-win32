@@ -2,6 +2,7 @@
 
 cd %APPVEYOR_BUILD_FOLDER%
 where git
+git config -l
 goto call_submodule
 
 if "%APPVEYOR_REPO_TAG_NAME%"=="" (
@@ -20,6 +21,7 @@ goto :eof
 echo on
 
 if "%1"=="build" (
+  git config --global core.autocrlf input
   git submodule init
   git submodule update
   cd ag
