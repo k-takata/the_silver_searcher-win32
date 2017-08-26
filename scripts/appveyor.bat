@@ -22,7 +22,7 @@ goto :eof
 echo on
 
 if "%1"=="build" (
-  git config --local core.autocrlf input
+  git config --local core.autocrlf false
   git submodule init
   git submodule update
   cd ag
