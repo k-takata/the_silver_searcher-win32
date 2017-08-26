@@ -22,6 +22,9 @@ environment:
 matrix:
   fast_finish: true
 
+init:
+  - git config --global core.autocrlf input
+
 build_script:
   - '%APPVEYOR_BUILD_FOLDER%\scripts\appveyor.bat build'
 
