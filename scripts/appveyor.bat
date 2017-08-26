@@ -1,6 +1,8 @@
 @echo off
 
 cd %APPVEYOR_BUILD_FOLDER%
+where git
+goto call_submodule
 
 if "%APPVEYOR_REPO_TAG_NAME%"=="" (
   if "%1_%ARCH%"=="build_x64" (
@@ -21,8 +23,11 @@ if "%1"=="build" (
   git submodule init
   git submodule update
   cd ag
+  git config -l
   for %%I in (..\patches\*.patch) do git apply %%I || exit 1
   cd ..
+  appveyor exit
+  exit
 )
 set OLD_APPVEYOR_BUILD_FOLDER=%APPVEYOR_BUILD_FOLDER%
 set APPVEYOR_BUILD_FOLDER=%APPVEYOR_BUILD_FOLDER%\ag
