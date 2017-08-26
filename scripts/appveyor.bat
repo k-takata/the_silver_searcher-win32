@@ -1,6 +1,7 @@
 @echo off
 
 cd %APPVEYOR_BUILD_FOLDER%
+dir patches
 where git
 git config -l
 goto call_submodule
