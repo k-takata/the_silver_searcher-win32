@@ -21,7 +21,7 @@ if "%1"=="build" (
   git submodule init
   git submodule update
   cd ag
-  for %%I in (..\patches\*.patch) do git apply %%I || exit 1
+  for %%I in (..\patches\*.patch) do git apply -3 %%I || exit 1
   cd ..
 )
 set OLD_APPVEYOR_BUILD_FOLDER=%APPVEYOR_BUILD_FOLDER%
