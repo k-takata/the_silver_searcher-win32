@@ -27,7 +27,7 @@ if "%1"=="build" (
   git submodule update
   cd ag
   git config -l
-  for %%I in (..\patches\*.patch) do git apply %%I || exit 1
+  for %%I in (..\patches\*.patch) do git apply -3 --whitespace=nowarn %%I || exit 1
   cd ..
   appveyor exit
   exit
