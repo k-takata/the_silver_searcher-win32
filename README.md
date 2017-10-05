@@ -12,3 +12,9 @@ Two types of packages are provided:
 * `ag-YYYY-MM-DD_{CommitID}-x86.zip`: x86 release build
 
 `{CommitID}` is a commit ID or a tag name of [the official repository](https://github.com/ggreer/the_silver_searcher).
+
+# License
+
+The silver searcher itself (which is in the ag subdirectory) is licensed under the Apache 2 license. See the [LICENSE](LICENSE) file.
+
+The build scripts in this repository are based on the [vim-win32-installer](https://github.com/vim/vim-win32-installer) project, and [the Vim license](http://vimhelp.appspot.com/uganda.txt.html#license) applies to them.
