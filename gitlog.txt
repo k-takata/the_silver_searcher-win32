@@ -1,1 +1,1 @@
-* Update iscygpty\n
+* Merge pull request [#1163](https://github.com/ggreer/the_silver_searcher/issues/1163) from Synthetica9/patch-1\n
