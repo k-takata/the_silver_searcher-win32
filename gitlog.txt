@@ -1,1 +1,1 @@
-* Merge pull request [#1163](https://github.com/ggreer/the_silver_searcher/issues/1163) from Synthetica9/patch-1\n
+* Merge pull request [#1176](https://github.com/ggreer/the_silver_searcher/issues/1176) from toolboxen/patch-1\n* Merge pull request [#1179](https://github.com/ggreer/the_silver_searcher/issues/1179) from murmour/fix-r-extension\n
