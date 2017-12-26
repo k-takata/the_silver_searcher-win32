@@ -1,1 +1,1 @@
-* Oops. Formatting error.\n
+* Merge pull request [#1169](https://github.com/ggreer/the_silver_searcher/issues/1169) from Ssamm45/dlang\n* Merge pull request [#1170](https://github.com/ggreer/the_silver_searcher/issues/1170) from johnyf/tla\n* Merge pull request [#1173](https://github.com/ggreer/the_silver_searcher/issues/1173) from Phyllostachys/master\n* Merge pull request [#1187](https://github.com/ggreer/the_silver_searcher/issues/1187) from kevinkirkup/master\n
