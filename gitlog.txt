@@ -1,1 +1,1 @@
-* Replace longs in ag\_stats struct with size\_t. Should help with [#1158](https://github.com/ggreer/the_silver_searcher/issues/1158).\n
+* Merge pull request [#1203](https://github.com/ggreer/the_silver_searcher/issues/1203) from felipefiali/master\n* Merge pull request [#1202](https://github.com/ggreer/the_silver_searcher/issues/1202) from Nelyah/master\n
