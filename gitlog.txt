@@ -1,1 +1,1 @@
-* Merge pull request [#1203](https://github.com/ggreer/the_silver_searcher/issues/1203) from felipefiali/master\n* Merge pull request [#1202](https://github.com/ggreer/the_silver_searcher/issues/1202) from Nelyah/master\n
+* Merge pull request [#1194](https://github.com/ggreer/the_silver_searcher/issues/1194) from bazzargh/patch-1\n* Merge pull request [#1224](https://github.com/ggreer/the_silver_searcher/issues/1224) from Liambeguin/master\n* Merge pull request [#1231](https://github.com/ggreer/the_silver_searcher/issues/1231) from nbeernink/patch-1\n
