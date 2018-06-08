@@ -1,1 +1,1 @@
-* Merge pull request [#1239](https://github.com/ggreer/the_silver_searcher/issues/1239) from aswild/buf-readline\n
+* Merge pull request [#1208](https://github.com/ggreer/the_silver_searcher/issues/1208) from jschneier/master\n
