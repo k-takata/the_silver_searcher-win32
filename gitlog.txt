@@ -1,1 +1,1 @@
-* Merge pull request [#1208](https://github.com/ggreer/the_silver_searcher/issues/1208) from jschneier/master\n
+* On some platforms, read() will only read 2GB-4GB maximum. read() again until the whole file is in memory.\n
