@@ -1,1 +1,1 @@
-* Merge pull request [#1287](https://github.com/ggreer/the_silver_searcher/issues/1287) from jacwah/pipe-link\n* Merge pull request [#1290](https://github.com/ggreer/the_silver_searcher/issues/1290) from aitzkora/master\n
+* Merge pull request [#1270](https://github.com/ggreer/the_silver_searcher/issues/1270) from zealoussnow/fix-rpmbuild-error\n
