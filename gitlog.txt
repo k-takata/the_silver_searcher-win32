@@ -1,1 +1,1 @@
-* Merge pull request [#1306](https://github.com/ggreer/the_silver_searcher/issues/1306) from brianary/feature-windows-extensions\n* Merge pull request [#1310](https://github.com/ggreer/the_silver_searcher/issues/1310) from DeeeeLAN/verilog/work\n
+* Merge pull request [#1245](https://github.com/ggreer/the_silver_searcher/issues/1245) from kpengboy/fix\_-L\n
