@@ -5,7 +5,7 @@ environment:
     DEPLOY_USER_NAME: 'ag-win32 CI'
     DEPLOY_USER_EMAIL: 'k-takata@users.noreply.github.com'
     CI_KEY:
-      secure: cAkxwysBbm0A9OaET3vVvBCtFJReZXeCH7zS3HTWyzbUGdNKqDeLkbjlvvSxXPw2
+      secure: tKQqD1VjZhwScTAeX7yLT5rWJleMtcFXpFE3fhZjg5Sj8Np01+Ixc38rAKK309jw
 
   matrix:
     - compiler: msys2
