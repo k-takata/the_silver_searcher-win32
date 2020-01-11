@@ -1,1 +1,1 @@
-* Merge pull request [#1245](https://github.com/ggreer/the_silver_searcher/issues/1245) from kpengboy/fix\_-L\n
+* Fix formatting.\n* Merge pull request [#1354](https://github.com/ggreer/the_silver_searcher/issues/1354) from emoses/master\n
