@@ -1,1 +1,1 @@
-* Fix formatting.\n* Merge pull request [#1354](https://github.com/ggreer/the_silver_searcher/issues/1354) from emoses/master\n
+* Merge pull request [#1358](https://github.com/ggreer/the_silver_searcher/issues/1358) from gliptak/patch-1\n
