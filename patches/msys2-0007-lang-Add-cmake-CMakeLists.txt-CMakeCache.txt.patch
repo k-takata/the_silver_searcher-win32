@@ -18,8 +18,8 @@ index 0848fb1..b608180 100644
      { "clojure", { "clj", "cljs", "cljc", "cljx" } },
 +    { "cmake", { "^CMakeLists.txt", "^CMakeCache.txt", "^CMakeError.log", "^CMakeOutput.log", "cmake" } },
      { "coffee", { "coffee", "cjsx" } },
+     { "config", { "config" } },
      { "coq", { "coq", "g", "v" } },
-     { "cpp", { "cpp", "cc", "C", "cxx", "m", "hpp", "hh", "h", "H", "hxx", "tpp" } },
 -- 
 2.12.1
 
