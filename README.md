@@ -13,6 +13,10 @@ Two types of packages are provided:
 
 `{CommitID}` is a commit ID or a tag name of [the official repository](https://github.com/ggreer/the_silver_searcher).
 
+# Note
+
+Starting from the build [2020-02-26/2.2.0-24-gb93c271](https://github.com/k-takata/the_silver_searcher-win32/releases/tag/2020-02-26%2F2.2.0-24-gb93c271), the silver searcher win32 uses [the UTF-8 code page](https://docs.microsoft.com/en-us/windows/uwp/design/globalizing/use-utf8-code-page) on Windows 10 version 1903 or later. This allows you to search UTF-8 strings.
+
 # License
 
 The silver searcher itself (which is in the ag subdirectory) is licensed under the Apache 2 license. See the [LICENSE](LICENSE) file.
