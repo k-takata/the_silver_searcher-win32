@@ -17,8 +17,8 @@ index 17783ae..df58f77 100644
      { "aspx", { "asp", "asa", "aspx", "asax", "ashx", "ascx", "asmx" } },
 +    { "autotools", { "ac", "am", "in", "m4", "pc" } },
      { "batch", { "bat", "cmd" } },
+     { "bazel", { "bazel" } },
      { "bitbake", { "bb", "bbappend", "bbclass", "inc" } },
-     { "bro", { "bro", "bif" } },
 -- 
 2.12.1
 
