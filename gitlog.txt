@@ -1,1 +1,1 @@
-* Merge pull request [#1389](https://github.com/ggreer/the_silver_searcher/issues/1389) from aswild/getenv-segfault\n* Merge pull request [#1392](https://github.com/ggreer/the_silver_searcher/issues/1392) from corelight-chris/master\n* Merge pull request [#1390](https://github.com/ggreer/the_silver_searcher/issues/1390) from matthewhughes934/fix-list\_file\_types-test\n
+* Fix test.\n* Merge pull request [#1393](https://github.com/ggreer/the_silver_searcher/issues/1393) from JFLarvoire/winget\n
