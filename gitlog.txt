@@ -1,1 +1,1 @@
-* Fix test.\n* Merge pull request [#1393](https://github.com/ggreer/the_silver_searcher/issues/1393) from JFLarvoire/winget\n
+* Merge pull request [#1424](https://github.com/ggreer/the_silver_searcher/issues/1424) from sanjaymsh/ppc64le\n
